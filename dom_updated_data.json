@@ -1,0 +1,1033 @@
+<html lang="en">
+ <head>
+  <title>
+   Results
+  </title>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="/static/easylaw_favicon_final_1.svg" rel="icon" type="image/svg+xml"/>
+  <script async="" src="https://connect.facebook.net/signals/config/594488861225449?v=2.9.179&amp;r=stable&amp;domain=www.easylaw.ai&amp;hme=b8122d5d96cd6f542162ba4f497489972d1ebe228d24c39d34f560e30ae932ce&amp;ex_m=70%2C122%2C107%2C111%2C61%2C4%2C100%2C69%2C16%2C97%2C89%2C51%2C54%2C173%2C176%2C188%2C184%2C185%2C187%2C29%2C101%2C53%2C77%2C186%2C168%2C171%2C181%2C182%2C189%2C132%2C41%2C191%2C192%2C34%2C144%2C15%2C50%2C197%2C196%2C134%2C18%2C40%2C1%2C43%2C65%2C66%2C67%2C71%2C93%2C17%2C14%2C96%2C92%2C91%2C108%2C52%2C110%2C39%2C109%2C30%2C94%2C26%2C169%2C172%2C141%2C86%2C56%2C84%2C33%2C73%2C0%2C95%2C32%2C28%2C82%2C83%2C88%2C47%2C46%2C87%2C37%2C11%2C12%2C13%2C6%2C7%2C25%2C22%2C23%2C57%2C62%2C64%2C75%2C102%2C27%2C76%2C9%2C8%2C80%2C48%2C21%2C104%2C103%2C105%2C98%2C10%2C20%2C3%2C38%2C74%2C19%2C5%2C90%2C81%2C44%2C35%2C85%2C2%2C36%2C63%2C42%2C106%2C45%2C79%2C68%2C112%2C60%2C59%2C31%2C99%2C58%2C55%2C49%2C78%2C72%2C24%2C113">
+  </script>
+  <script async="" src="https://connect.facebook.net/en_US/fbevents.js">
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+  </script>
+  <link href="https://cdn.datatables.net/1.10.9/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css"/>
+  <link href="https://cdn.datatables.net/responsive/1.0.7/css/responsive.dataTables.min.css" rel="stylesheet" type="text/css"/>
+  <script charset="utf8" src="https://cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js" type="text/javascript">
+  </script>
+  <script charset="utf8" src="https://cdn.datatables.net/responsive/1.0.7/js/dataTables.responsive.min.js" type="text/javascript">
+  </script>
+  <style>
+   html {
+        position: relative;
+        min-height: 100%;
+    }
+    body {
+        margin: 0 0 45px;
+    }
+    footer {
+        background-color: #F8F8F8;
+        text-align:center;
+        border-top: 1px solid #E7E7E7;
+
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 45px;
+        width: 100%;
+    }
+    .btn-link{
+        border:none;
+        outline:none;
+        background:none;
+        cursor:pointer;
+        color:#0000EE;
+        padding:0;
+        text-decoration:underline;
+        font-family:inherit;
+        font-size:inherit;
+    }
+
+    .btn-static {
+        background-color: white;
+        border: 1px solid lightgrey;
+        cursor: default;
+    }
+    .same-line {
+        height: 10px;
+        position: relative;
+    }
+    .same-line div{
+        display: inline-block;
+        position: absolute;
+    }
+    .on-the-left{
+     left:0px;
+    }
+    .on-the-center{
+        left: 0%;
+        right: 0%;
+        text-align: center;
+    }
+    .on-the-right{
+       right: 0px;
+    }
+    .mytag {
+    }
+    .mytagdate {
+    }
+    .mytagjudge {
+    }
+  </style>
+  <!-- Facebook Pixel Code -->
+  <script>
+   !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '594488861225449');
+      fbq('track', 'PageView');
+  </script>
+  <noscript>
+   <img height="1" src="https://www.facebook.com/tr?id=594488861225449&amp;ev=PageView&amp;noscript=1" style="display:none" width="1"/>
+  </noscript>
+  <!-- End Facebook Pixel Code -->
+ </head>
+ <body>
+  <nav class="navbar navbar-default">
+   <div class="container-fluid">
+    <div class="navbar-header">
+     <button class="navbar-toggle" data-target="#myNavbar" data-toggle="collapse" type="button">
+      <span class="icon-bar">
+      </span>
+      <span class="icon-bar">
+      </span>
+      <span class="icon-bar">
+      </span>
+     </button>
+     <a class="navbar-brand" href="#" rel="home" title="easylaw.ai">
+      <img src="/static/easylaw_logo.png" style="width:250px; margin-top: -67px;"/>
+     </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+     <ul class="nav navbar-nav navbar-right" style="text-align:center;">
+      <a class="btn btn-success navbar-btn" href="https://www.easylaw.ai/" role="button">
+       SEARCH
+      </a>
+     </ul>
+     <ul class="nav navbar-nav navbar-left">
+      <li style="text-align:center;">
+       <a href="/">
+        HOME
+       </a>
+      </li>
+      <li style="text-align:center;">
+       <a href="/contact">
+        CONTACT
+       </a>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </nav>
+  <br/>
+  <div style="width: 90%; margin-left: 5%">
+   <div style="width: 90%; margin-left: 5%; font-size: 18px;">
+    <p align="center">
+     <i>
+      <b>
+       Query:
+      </b>
+      PLD
+     </i>
+    </p>
+   </div>
+   <br/>
+   <div class="container-fluid" style="width: 90%">
+    <script>
+     $(document).ready( function () {
+
+            $('#myTable thead th mytag').each( function () {
+                $(this).html( 'Court<br><input type="text" placeholder="All Courts" size="8"/>' );
+            } );
+
+            $('#myTable thead th mytagdate').each( function () {
+                $(this).html( 'Date<br><input class="filter" type="text" placeholder="All Years" size="8"/>' );
+            } );
+
+            $('#myTable thead th mytagjudge').each( function () {
+                $(this).html( 'Judge<br><input class="filter" type="text" placeholder="All Judges" size="8"/>' );
+            } );
+
+           var table = $('#myTable').DataTable({
+              initComplete: function () {
+                  this.api().columns([4]).every( function () {
+                      var column = this;
+                      var select = $('<br><select><option value="">All Journals</option></select>')
+                          .appendTo( $(column.header()) )
+                          .on( 'change', function () {
+                              var val = $.fn.dataTable.util.escapeRegex(
+                                  $(this).val()
+                              );
+
+                              column
+                                  .search( val ? '^'+val+'$' : '', true, false )
+                                  .draw();
+                          } );
+
+                      column.data().unique().sort().each( function ( d, j ) {
+                          select.append( '<option value="'+d+'">'+d.substr(0, 10)+'</option>' )
+                      } );
+                  } );
+              },
+             "dom": '<"top pull-right"i>rt<"bottom"lp><"clear">',
+              "columns": [
+                { "width": "90%", "orderable": false },
+                { "orderable": true },
+                { "orderable": false },
+                { "orderable": false },
+                { "orderable": false }
+              ],
+              order: [],
+             "bLengthChange": false,
+             "language": {
+                "lengthMenu": "Display _MENU_ records per page",
+                "zeroRecords": "No Data Found",
+                "info": "Showing _START_ to _END_ of _TOTAL_ results",
+                "infoEmpty": "No records available",
+                "infoFiltered": "(filtered from _MAX_ total records)"
+             },
+             "scrollX": true
+           });
+
+            $('.filter').on('click', function(e){
+               e.stopPropagation();
+            });
+
+            table.columns([1, 2, 3]).every( function () {
+                var that = this;
+
+                $( 'input', this.header() ).on( 'keyup change clear', function () {
+                    if ( that.search() !== this.value ) {
+                        that
+                            .search( this.value )
+                            .draw();
+                    }
+                } );
+            } );
+
+            table.columns.adjust().draw();
+
+      });
+    </script>
+    <div class="dataTables_wrapper no-footer" id="myTable_wrapper">
+     <div class="top pull-right">
+      <div aria-live="polite" class="dataTables_info" id="myTable_info" role="status">
+       Showing 1 to 10 of 500 results
+      </div>
+     </div>
+     <div class="dataTables_scroll">
+      <div class="dataTables_scrollHead" style="overflow: hidden; position: relative; border: 0px; width: 100%;">
+       <div class="dataTables_scrollHeadInner" style="box-sizing: content-box; width: 899.867px; padding-right: 0px;">
+        <table aria-describedby="myTable_info" class="table table-striped dataTable no-footer" role="grid" style="width: 899.867px; margin-left: 0px;">
+         <thead>
+          <tr role="row">
+           <th aria-label="Judgment" class="sorting_disabled" colspan="1" rowspan="1" style="width: 205.117px;">
+            Judgment
+            <br/>
+            <br/>
+           </th>
+           <th aria-controls="myTable" aria-label="Date: activate to sort column ascending" class="sorting" colspan="1" rowspan="1" style="width: 92px;" tabindex="0">
+            <mytagdate>
+             Date
+             <br/>
+             <input class="filter" placeholder="All Years" size="8" type="text"/>
+            </mytagdate>
+           </th>
+           <th aria-label="Court" class="sorting_disabled" colspan="1" rowspan="1" style="width: 92px;">
+            <mytag>
+             Court
+             <br/>
+             <input placeholder="All Courts" size="8" type="text"/>
+            </mytag>
+           </th>
+           <th aria-label="Judge" class="sorting_disabled" colspan="1" rowspan="1" style="width: 220.633px;">
+            <mytagjudge>
+             Judge
+             <br/>
+             <input class="filter" placeholder="All Judges" size="8" type="text"/>
+            </mytagjudge>
+           </th>
+           <th aria-label="Journal" class="sorting_disabled" colspan="1" rowspan="1" style="width: 110.117px;">
+            Journal
+            <br/>
+            <select>
+             <option value="">
+              All Journals
+             </option>
+             <option value="CLC">
+              CLC
+             </option>
+             <option value="CLD">
+              CLD
+             </option>
+             <option value="MLD">
+              MLD
+             </option>
+             <option value="NLR">
+              NLR
+             </option>
+             <option value="PCrLJ">
+              PCrLJ
+             </option>
+             <option value="PLD">
+              PLD
+             </option>
+             <option value="PSC">
+              PSC
+             </option>
+             <option value="PTCL">
+              PTCL
+             </option>
+             <option value="SBLR">
+              SBLR
+             </option>
+             <option value="SCMR">
+              SCMR
+             </option>
+             <option value="SD">
+              SD
+             </option>
+             <option value="YLR">
+              YLR
+             </option>
+            </select>
+           </th>
+          </tr>
+         </thead>
+        </table>
+       </div>
+      </div>
+      <div class="dataTables_scrollBody" style="position: relative; overflow: auto; width: 100%;">
+       <table aria-describedby="myTable_info" class="table table-striped dataTable no-footer" id="myTable" role="grid" style="width: 100%;">
+        <thead>
+         <tr role="row" style="height: 0px;">
+          <th aria-label="Judgment" class="sorting_disabled" colspan="1" rowspan="1" style="width: 205.117px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;">
+           <div class="dataTables_sizing" style="height:0;overflow:hidden;">
+            Judgment
+            <br/>
+            <br/>
+           </div>
+          </th>
+          <th aria-controls="myTable" aria-label="Date: activate to sort column ascending" class="sorting" colspan="1" rowspan="1" style="width: 92px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;">
+           <div class="dataTables_sizing" style="height:0;overflow:hidden;">
+            <mytagdate>
+             Date
+             <br/>
+             <input class="filter" placeholder="All Years" size="8" type="text"/>
+            </mytagdate>
+           </div>
+          </th>
+          <th aria-label="Court" class="sorting_disabled" colspan="1" rowspan="1" style="width: 92px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;">
+           <div class="dataTables_sizing" style="height:0;overflow:hidden;">
+            <mytag>
+             Court
+             <br/>
+             <input placeholder="All Courts" size="8" type="text"/>
+            </mytag>
+           </div>
+          </th>
+          <th aria-label="Judge" class="sorting_disabled" colspan="1" rowspan="1" style="width: 220.633px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;">
+           <div class="dataTables_sizing" style="height:0;overflow:hidden;">
+            <mytagjudge>
+             Judge
+             <br/>
+             <input class="filter" placeholder="All Judges" size="8" type="text"/>
+            </mytagjudge>
+           </div>
+          </th>
+          <th aria-label="Journal" class="sorting_disabled" colspan="1" rowspan="1" style="width: 110.117px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;">
+           <div class="dataTables_sizing" style="height:0;overflow:hidden;">
+            Journal
+            <br/>
+            <select>
+             <option value="">
+              All Journals
+             </option>
+             <option value="CLC">
+              CLC
+             </option>
+             <option value="CLD">
+              CLD
+             </option>
+             <option value="MLD">
+              MLD
+             </option>
+             <option value="NLR">
+              NLR
+             </option>
+             <option value="PCrLJ">
+              PCrLJ
+             </option>
+             <option value="PLD">
+              PLD
+             </option>
+             <option value="PSC">
+              PSC
+             </option>
+             <option value="PTCL">
+              PTCL
+             </option>
+             <option value="SBLR">
+              SBLR
+             </option>
+             <option value="SCMR">
+              SCMR
+             </option>
+             <option value="SD">
+              SD
+             </option>
+             <option value="YLR">
+              YLR
+             </option>
+            </select>
+           </div>
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr class="odd" role="row">
+          <td>
+           ...
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1965 Dacca 263
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1964 SC 636 16 DLR (SC) 457
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           ? 1964. Kar. 4'68
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           19(54 BJ 15
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1963 Lah. 98
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1964 Kar. . 90
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1964 Dacca 522 15 DLR 703
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1962 Kar. 712
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1962 Lah, 189
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1962 Lah.16
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1961 Lah. 842 (FB).
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           ‘
+                   ...
+           <form action="/case" method="post" target="_blank">
+            <br/>
+            <button class="btn-link" name="details" type="submit" value="WH5TGTL6B9BHMAD4UM">
+             2001 PLD 415
+            </button>
+           </form>
+          </td>
+          <td>
+           2000-11-22
+          </td>
+          <td>
+           SUPREME COURT
+          </td>
+          <td>
+           MUHAMMAD BASHIR JEHANGIRI AND JAVED IQBAL
+          </td>
+          <td>
+           PLD
+          </td>
+         </tr>
+         <tr class="even" role="row">
+          <td>
+           ...
+                   1969 Dacca 779
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1965 Dacca 263
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1964 SC 636 16 DLR SC 457 PL9 1964 Kar. 468
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1964 BJ 15
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1963 Lah. 98
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1964 Kar 90
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1964 Dacca 522 15 DLR 703
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1962 kar. 712
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           19.62 Lah. 189 'PLD 1962 Lah. 16
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1961 Lah. 842 FB -PLD-196f Lah. 304
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1961 Lah. 756
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1960 Dacca 541
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1960 Dacca 31
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1960 Dacca
+                   ...
+           <form action="/case" method="post" target="_blank">
+            <br/>
+            <button class="btn-link" name="details" type="submit" value="XQ4KIBQQR9FV6CTMTT">
+             2001 PSC 506
+            </button>
+           </form>
+          </td>
+          <td>
+           2000-11-22
+          </td>
+          <td>
+           SUPREME COURT
+          </td>
+          <td>
+           MUHAMMAD BASHIR JEHANGIRI AND JAVED IQBAL
+          </td>
+          <td>
+           PSC
+          </td>
+         </tr>
+         <tr class="odd" role="row">
+          <td>
+           ...
+                   the present case as thee is no inconsistency between the provincial law and Federal Law. He further stated that the Provincial Assembly has absolute power to enact the laws and the Court should have taken into consideration certain principles laid down by the superior Courts while declaring any law ultra vires. He relied on
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1983 SC 457. Fauji Foundation's case
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1995 SC 66. Sabir Shah's case,
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1977 SC
+                   ...
+           <form action="/case" method="post" target="_blank">
+            <br/>
+            <button class="btn-link" name="details" type="submit" value="ZAPKP0WUIMF1JYHXYQ">
+             2000 PLD 20
+            </button>
+           </form>
+          </td>
+          <td>
+           1999-04-16
+          </td>
+          <td>
+           LAHORE HIGH COURT
+          </td>
+          <td>
+           H K. ; CH. IJAZ AHMAD
+          </td>
+          <td>
+           PLD
+          </td>
+         </tr>
+         <tr class="even" role="row">
+          <td>
+           ...
+                   enact the laws and the Court should have taken into consideration certain principles laid down by the superior Courts while declaring any law ultra vires. He relied on
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1983 SC 457. Fauji Foundation's case
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1995 SC 66. Sabir Shah's case,
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1977 SC 11. Zulfiqar Ali's case. He further stated that our Constitution' is based on trichotomy and this Court has no jurisdiction
+                   ...
+           <form action="/case" method="post" target="_blank">
+            <br/>
+            <button class="btn-link" name="details" type="submit" value="CUEWO3JBVF6B41LLS2">
+             2000 PLD 20
+            </button>
+           </form>
+          </td>
+          <td>
+           1999-04-16
+          </td>
+          <td>
+           LAHORE HIGH COURT
+          </td>
+          <td>
+           H K. ; CH. IJAZ AHRNAD
+          </td>
+          <td>
+           PLD
+          </td>
+         </tr>
+         <tr class="odd" role="row">
+          <td>
+           ...
+                   Reliance has been placed on
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           2011 SC 44,
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           2011 Lah 120, AIR 1960 Madras 160,
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           2005 Karachi 55,
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           2009 Karachi 69,
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1997 SC 582, 2003 CLC 649, 1998 CLC 1912, 1998 CLC 1924, 1999 MLD 721, 1999 MLD 731,
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1995 SC 281,
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1986 Lahore 237,
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1986 Lahore 242,
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1960 Dacca 502, 1998 SCMR 2492, 1998 SCMR 2502, 2011 PTD 2643, 1999 SCMR 1402,
+                   ...
+           <form action="/case" method="post" target="_blank">
+            <br/>
+            <button class="btn-link" name="details" type="submit" value="NF1AR5OXK7AC23VAEF">
+             2014 PLD 83
+            </button>
+           </form>
+          </td>
+          <td>
+           2013-01-31
+          </td>
+          <td>
+           ISLAMABAD HIGH COURT
+          </td>
+          <td>
+           MASTER TEXTILE MILLS AND 275 OTHERS-PETITIONERSVERSUSFEDERATION OF PAKISTAN AND OTHERS-
+          </td>
+          <td>
+           PLD
+          </td>
+         </tr>
+         <tr class="even" role="row">
+          <td>
+           ...
+                   AMIR HANI.MUSLIM, J.— C.R.P 49/2016 etc.
+                   ...
+           <form action="/case" method="post" target="_blank">
+            <br/>
+            <button class="btn-link" name="details" type="submit" value="OYWB4UW91651H52Z5N">
+             2017 SCMR 206
+            </button>
+           </form>
+          </td>
+          <td>
+           2016-12-30
+          </td>
+          <td>
+           SUPREME COURT
+          </td>
+          <td>
+           PRESENT: ANWAR ZAHEER JAMALI, C.J., AMIR HANI MUSLIM, EJAZ AFZAL KHAN, MUSHIR ALAM AND IJAZ-UL-AHSAN
+          </td>
+          <td>
+           SCMR
+          </td>
+         </tr>
+         <tr class="odd" role="row">
+          <td>
+           ...
+                   Pakistan
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1994 SC 621; and Shahida Zaheer Abbasi v. President of Pakistan
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1996 SC 632). The expression 'public importance' was interpreted in the case of Manzoor Elahi v. Federation of Pakistan (PLD 1975 SC 66) as follows:-
+                   ...
+           <form action="/case" method="post" target="_blank">
+            <br/>
+            <button class="btn-link" name="details" type="submit" value="0KTC9KKZFXTE5EP9RP">
+             2009 PLD 549
+            </button>
+           </form>
+          </td>
+          <td>
+           2007-09-28
+          </td>
+          <td>
+           SUPREME COURT
+          </td>
+          <td>
+           RANA BHAGWANDAS, JAVED IQBAL, ABDUL HAMEED DOGAR,SARDAR MUHAMMAD RAZA KHAN, MUHAMMAD NAWAZ
+          </td>
+          <td>
+           PLD
+          </td>
+         </tr>
+         <tr class="even" role="row">
+          <td>
+           ...
+                   Pakistan
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1994 SC 621; and Shahida Zaheer Abbasi v. President of Pakistan
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1996 SC 632). The expression 'public importance' was interpreted in the case of Manzoor Elahi v. Federation of Pakistan (PLD 1975 SC 66) as follows
+                   ...
+           <form action="/case" method="post" target="_blank">
+            <br/>
+            <button class="btn-link" name="details" type="submit" value="WAJKLC5EW4LWUSG83V">
+             2008 PLD 30
+            </button>
+           </form>
+          </td>
+          <td>
+           2007-09-28
+          </td>
+          <td>
+           SUPREME COURT
+          </td>
+          <td>
+           RANA BHAGWANDAS, JAVED IQBAL, ABDUL HAMEED DO GAR, SARDAR MUHAMMAD RAZA KHAN, MUHAMMAD NAWAZ
+          </td>
+          <td>
+           PLD
+          </td>
+         </tr>
+         <tr class="odd" role="row">
+          <td>
+           ...
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1973 Kar. 878 (DB), 1971 DLC 250 (DB),
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1966 Dacca 576 (DB), 1985 CLC 2805, NLR 1985 Civ. 69, NLR 1978 Civ. 1114 (DB),
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1969 Dacca 779 (DB),
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1969 Lah. 823 (DB), 1968 SCMR 1136, 1969 DLC 449, 21 DLR 394(DB), 1970 DLC 387, 22 DLR 235 (DB),
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1962 SC 108, 1962 (2) PSCR 87, 14 DLR(SC) 102,
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1958 SC 267, PLR 1958 (2) WP 1369,
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1959 SC
+                   ...
+           <form action="/case" method="post" target="_blank">
+            <br/>
+            <button class="btn-link" name="details" type="submit" value="0JDXEC0M7UDVMYFISB">
+             2007 PLD 642
+            </button>
+           </form>
+          </td>
+          <td>
+           2007-08-23
+          </td>
+          <td>
+           SUPREME COURT
+          </td>
+          <td>
+           IFTIKHAR MUHAMMAD CHAUDHRY, C.J., JAVED IQBAL SARDAR MUHAMMAD RAZA KHAN, FAQIR MUHAMMAD KHOKHAR
+          </td>
+          <td>
+           PLD
+          </td>
+         </tr>
+         <tr class="even" role="row">
+          <td>
+           ...
+                   pendentic sense. (See Messrs Elahi Cotton Mills Ltd. v. Federation of Pakistan
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1997 SC 582, Sohail Jute Mills Ltd. and others v. Federation of* Pakistan
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1991 SC 329 and Messrs Haider Automobile Ltd. v. Pakistan
+           <mark>
+            <b>
+             PLD
+            </b>
+           </mark>
+           1969 SC 623. (ii) There was ample justification both under the Constitution and the law
+                   ...
+           <form action="/case" method="post" target="_blank">
+            <br/>
+            <button class="btn-link" name="details" type="submit" value="MZKOTNXZB7AOIG7BZV">
+             1998 MLD 1411
+            </button>
+           </form>
+          </td>
+          <td>
+           1998-03-09
+          </td>
+          <td>
+           LAHORE HIGH COURT
+          </td>
+          <td>
+           MALIK MUHAMMAD QAYYUM, RAJA MUHAMMAD SABIR, AMIR ALAM KHAN, FAQIR MUHAMMAD KHOKHAR AND
+          </td>
+          <td>
+           MLD
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </div>
+     </div>
+     <div class="bottom">
+      <div class="dataTables_paginate paging_simple_numbers" id="myTable_paginate">
+       <a aria-controls="myTable" class="paginate_button previous disabled" data-dt-idx="0" id="myTable_previous" tabindex="0">
+        Previous
+       </a>
+       <span>
+        <a aria-controls="myTable" class="paginate_button current" data-dt-idx="1" tabindex="0">
+         1
+        </a>
+        <a aria-controls="myTable" class="paginate_button" data-dt-idx="2" tabindex="0">
+         2
+        </a>
+        <a aria-controls="myTable" class="paginate_button" data-dt-idx="3" tabindex="0">
+         3
+        </a>
+        <a aria-controls="myTable" class="paginate_button" data-dt-idx="4" tabindex="0">
+         4
+        </a>
+        <a aria-controls="myTable" class="paginate_button" data-dt-idx="5" tabindex="0">
+         5
+        </a>
+        <span class="ellipsis">
+         …
+        </span>
+        <a aria-controls="myTable" class="paginate_button" data-dt-idx="6" tabindex="0">
+         50
+        </a>
+       </span>
+       <a aria-controls="myTable" class="paginate_button next" data-dt-idx="7" id="myTable_next" tabindex="0">
+        Next
+       </a>
+      </div>
+     </div>
+     <div class="clear">
+     </div>
+    </div>
+   </div>
+   <br/>
+   <br/>
+   <br/>
+   <footer>
+    <p style="font-size: 14px;">
+     Copyright © 2021 easylaw.ai. All Rights Reserved.    |
+     <a href="https://www.easylaw.ai/disclaimer">
+      Disclaimer
+     </a>
+    </p>
+   </footer>
+  </div>
+ </body>
+</html>

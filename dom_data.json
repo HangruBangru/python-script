@@ -1,0 +1,421 @@
+html lang="en">
+ <head>
+  <title>
+   easylaw.ai - We Make Legal Research Easy
+  </title>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="summary" name="twitter:card"/>
+  <meta content="@easylaw_ai" name="twitter:site"/>
+  <meta content="easylaw.ai" name="twitter:title"/>
+  <meta content="We Make Legal Research Easy" name="twitter:description"/>
+  <meta content="https://i.ibb.co/Yf2jSdk/output-onlinepngtools-3.png" name="twitter:image"/>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="/static/easylaw_favicon_final_1.svg" rel="icon" type="image/svg+xml"/>
+  <script async="" src="https://connect.facebook.net/signals/config/594488861225449?v=2.9.179&amp;r=stable&amp;domain=www.easylaw.ai&amp;hme=b8122d5d96cd6f542162ba4f497489972d1ebe228d24c39d34f560e30ae932ce&amp;ex_m=70%2C122%2C107%2C111%2C61%2C4%2C100%2C69%2C16%2C97%2C89%2C51%2C54%2C173%2C176%2C188%2C184%2C185%2C187%2C29%2C101%2C53%2C77%2C186%2C168%2C171%2C181%2C182%2C189%2C132%2C41%2C191%2C192%2C34%2C144%2C15%2C50%2C197%2C196%2C134%2C18%2C40%2C1%2C43%2C65%2C66%2C67%2C71%2C93%2C17%2C14%2C96%2C92%2C91%2C108%2C52%2C110%2C39%2C109%2C30%2C94%2C26%2C169%2C172%2C141%2C86%2C56%2C84%2C33%2C73%2C0%2C95%2C32%2C28%2C82%2C83%2C88%2C47%2C46%2C87%2C37%2C11%2C12%2C13%2C6%2C7%2C25%2C22%2C23%2C57%2C62%2C64%2C75%2C102%2C27%2C76%2C9%2C8%2C80%2C48%2C21%2C104%2C103%2C105%2C98%2C10%2C20%2C3%2C38%2C74%2C19%2C5%2C90%2C81%2C44%2C35%2C85%2C2%2C36%2C63%2C42%2C106%2C45%2C79%2C68%2C112%2C60%2C59%2C31%2C99%2C58%2C55%2C49%2C78%2C72%2C24%2C113">
+  </script>
+  <script async="" src="https://connect.facebook.net/en_US/fbevents.js">
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+  </script>
+  <style>
+   html {
+        position: relative;
+        min-height: 100%;
+}
+    body {
+        margin: 0 0 45px;
+}
+    footer {
+        background-color: #F8F8F8;
+        text-align:center;
+        border-top: 1px solid #E7E7E7;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 45px;
+        width: 100%;
+}
+    .boxed {
+      border: 1px solid red;
+      padding: 10px;
+}
+    .tooltip {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: normal;
+      line-height: 1.5;
+      text-decoration: none;
+      text-shadow: none;
+      text-transform: none;
+      letter-spacing: normal;
+      word-break: normal;
+      word-spacing: normal;
+      word-wrap: normal;
+      white-space: normal;
+      /* ... */
+}
+    .tooltip-inner {
+        white-space: pre-line;
+        max-width: 100% !important;
+        text-align: left;
+}
+    .popover{
+        width: 400px;
+        height: 250px;
+        white-space: pre-line;
+}
+  </style>
+  <!-- Facebook Pixel Code -->
+  <script>
+   !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)
+    };
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[
+        0
+    ];
+      s.parentNode.insertBefore(t,s)
+}(window, document,'script',
+      'https: //connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '594488861225449');
+      fbq('track', 'PageView');
+  </script>
+  <noscript>
+   <img height="1" src="https://www.facebook.com/tr?id=594488861225449&amp;ev=PageView&amp;noscript=1" style="display:none" width="1"/>
+  </noscript>
+  <!-- End Facebook Pixel Code -->
+ </head>
+ <body>
+  <script>
+   $(document).ready(function(){
+      $('[data-toggle="tooltip"
+    ]').tooltip();
+});
+  </script>
+  <nav class="navbar navbar-default">
+   <div class="container-fluid">
+    <div class="navbar-header">
+     <button class="navbar-toggle" data-target="#myNavbar" data-toggle="collapse" type="button">
+      <span class="icon-bar">
+      </span>
+      <span class="icon-bar">
+      </span>
+      <span class="icon-bar">
+      </span>
+     </button>
+     <a class="navbar-brand" href="#" rel="home" title="easylaw.ai">
+      <img src="/static/easylaw_logo.png" style="width:250px; margin-top: -67px;"/>
+     </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+     <ul class="nav navbar-nav navbar-left">
+      <li class="active" style="text-align:center;">
+       <a href="/">
+        HOME
+       </a>
+      </li>
+      <li style="text-align:center;">
+       <a href="/contact">
+        CONTACT
+       </a>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </nav>
+  <div class="container body-content" id="mycontent">
+   <div class="col-lg-6 col-lg-offset-4 col-xs-10 col-xs-offset-1">
+    <br/>
+    <h4 style="font-size: 34px; font-family: 'Palatino Linotype', Palatino, serif !important;">
+     <b>
+      We Make Legal Research Easy
+     </b>
+    </h4>
+    <br/>
+    <br/>
+   </div>
+   <div class="col-lg-5 col-lg-offset-1 col-xs-10 col-xs-offset-1">
+    <br/>
+    <br/>
+    <br/>
+    <p style="font-size:20px; font-family: 'Palatino Linotype', Palatino, serif !important;">
+     <b>
+      -
+     </b>
+     Search around 150,
+000 judgments from Pakistan
+    </p>
+    <br/>
+    <p style="font-size:20px; font-family: 'Palatino Linotype', Palatino, serif !important;">
+     <b>
+      -
+     </b>
+     Search entire judgments, not just headnotes
+    </p>
+    <br/>
+    <p style="font-size:20px; font-family: 'Palatino Linotype', Palatino, serif !important;">
+     <b>
+      -
+     </b>
+     Enhance search by using Boolean techniques
+    </p>
+    <br/>
+    <p style="font-size:20px; font-family: 'Palatino Linotype', Palatino, serif !important;">
+     <b>
+      -
+     </b>
+     Filter results by date, court, judge and journal
+    </p>
+    <!--<br><br><br>
+              <p style="font-size:20px; font-family: 'Palatino Linotype', Palatino, serif !important;"><b>Don’t want to think of keywords to search?</b></p>
+              <br>
+              <p style="font-size:20px; font-family: 'Palatino Linotype', Palatino, serif !important;"><b>-&nbsp;</b>Let artificial intelligence do the heavy lifting</p>
+              <br>
+              <p style="font-size:20px; font-family: 'Palatino Linotype', Palatino, serif !important;"><b>-&nbsp;</b>Select 'AI-Powered Paragraph Search'</p>-->
+    <br/>
+    <hr class="solid"/>
+   </div>
+   <form action="/results" method="POST">
+    <script>
+     function ButtonClick_Test()
+                {
+                document.getElementById("comment1").value= 'A customer is just someone who goes to the bank for financing. But Section 15 is dealing with someone who has not only borrowed money, but in addition, has provided security by creating a mortgage on immovable property in favour of a financial institution i.e. the customer has given an express right to a financial institution to sell immovable property mortgaged with the bank if the customer fails to pay.';
+}
+    </script>
+    <div class="form-group col-lg-5 col-lg-offset-1 col-xs-10 col-xs-offset-1">
+     <br/>
+     <br/>
+     <img class="media-object" src="/static/lawyer.svg" style="width: 40%; margin-left: 25%;"/>
+     <br/>
+     <br/>
+     <input checked="" name="type" style="font-family: 'Palatino Linotype', Palatino, serif !important;" type="radio" value="standard"/>
+     Standard Search
+     <br/>
+     <input id="citation" name="type" style="font-family: 'Palatino Linotype', Palatino, serif !important;" type="radio" value="citation"/>
+     Citation Search
+     <!--<span style="color:red">(New Feature!)-->
+     <br/>
+     <!--<input type="radio" name="type" value="ai" style="font-family: 'Palatino Linotype', Palatino, serif !important;"> AI-Powered Paragraph Search
+                  <br>-->
+     <div id="textboxes" style="display: none">
+      <br/>
+      <textarea class="form-control" id="comment1" name="Query1" placeholder="Enter whole paragraphs from your briefs, past judgments, etc." rows="7"></textarea>
+      <div class="pull-right">
+       <button class="btn btn-link" name="no" onclick="ButtonClick_Test()" type="button">
+        Example Query
+       </button>
+      </div>
+     </div>
+     <div id="textboxes_boolean" style="">
+      <br/>
+      <textarea class="form-control" id="comment2" name="Query" placeholder="Enter query." rows="1"></textarea>
+      <div class="pull-right">
+       <div style="position:relative; top:6px;">
+        <a data-target="#myModal" data-toggle="modal" href="#">
+         Boolean Search Techniques
+        </a>
+       </div>
+      </div>
+     </div>
+     <div class="form-inline" id="dropdowns" style="display: none">
+      <br/>
+      <textarea class="form-control" cols="5" id="comment3" name="Query3" placeholder="Year" rows="1"></textarea>
+      <select class="form-control" id="sel1" name="Query4">
+       <option disabled="" selected="">
+        Journal
+       </option>
+       <option>
+        CLC
+       </option>
+       <option>
+        CLD
+       </option>
+       <option>
+        MLD
+       </option>
+       <option>
+        NLR
+       </option>
+       <option>
+        PCrLJ
+       </option>
+       <option>
+        PLD
+       </option>
+       <option>
+        PSC
+       </option>
+       <option>
+        PTCL
+       </option>
+       <option>
+        SBLR
+       </option>
+       <option>
+        SCMR
+       </option>
+       <option>
+        SD
+       </option>
+       <option>
+        YLR
+       </option>
+      </select>
+      <textarea class="form-control" cols="5" id="comment4" name="Query5" placeholder="Page" rows="1"></textarea>
+     </div>
+     <div class="pull-left" style="position:relative; top:22px;">
+      <input class="btn btn-success" id="myBtn" onclick="$('#loading').show();" type="submit" value="SEARCH"/>
+      <div id="loading" style="color: blue;">
+       <img alt="" src="/static/loading.gif"/>
+      </div>
+     </div>
+    </div>
+   </form>
+  </div>
+  <br/>
+  <br/>
+  <div class="modal fade" id="myModal" role="dialog">
+   <div class="modal-dialog">
+    <div class="modal-content">
+     <div class="modal-header">
+      <button class="close" data-dismiss="modal" type="button">
+       ×
+      </button>
+      <h4 class="modal-title">
+       Boolean Search Techniques
+      </h4>
+     </div>
+     <div class="modal-body">
+      <p>
+       <b>
+        AND
+       </b>
+       <br/>
+       arrest AND bail
+       <br/>
+       Judgment must contain both words,
+"arrest" and "bail".
+      </p>
+      <p>
+       <b>
+        OR
+       </b>
+       <br/>
+       damages OR compensation
+       <br/>
+       Judgment must contain either the word "damages" or the word "compensation".
+      </p>
+      <p>
+       <b>
+        NOT
+       </b>
+       <br/>
+       copyright NOT patent
+       <br/>
+       Judgment must contain the word "copyright" but not the word "patent".
+      </p>
+      <p>
+       <b>
+        ( )
+       </b>
+       <br/>
+       loss AND (economic OR physical)
+       <br/>
+       Judgment must contain the word "loss", and either the word "economic" or "physical".
+      </p>
+      <p>
+       <b>
+        " "
+       </b>
+       <br/>
+       "institutional investors"
+       <br/>
+       Judgment must contain the exact phrase "institutional investors".
+      </p>
+      <p>
+       <b>
+        *
+       </b>
+       <br/>
+       constitut*
+       <br/>
+       Judgment must contain a word starting with "constitut" (constitution/constitutes/etc.)
+      </p>
+     </div>
+     <div class="modal-footer">
+      <button class="btn btn-default" data-dismiss="modal" type="button">
+       Close
+      </button>
+     </div>
+    </div>
+   </div>
+  </div>
+  <br/>
+  <br/>
+  <script>
+   var input = document.getElementById("comment1");
+
+    input.addEventListener("keyup", function(event) {
+      if (event.keyCode === 13) {
+        event.preventDefault();
+        document.getElementById("myBtn").click();
+    }
+});
+  </script>
+  <script>
+   var input = document.getElementById("comment2");
+
+    input.addEventListener("keyup", function(event) {
+      if (event.keyCode === 13) {
+        event.preventDefault();
+        document.getElementById("myBtn").click();
+    }
+});
+  </script>
+  <script>
+   $(function() {
+        $('input[name="type"
+    ]').on('click', function() {
+            if ($(this).val() == 'ai') {
+                $('#textboxes_boolean').hide();
+                $('#dropdowns').hide();
+                $('#textboxes').show();
+        }
+            else if ($(this).val() == 'citation') {
+                $('#textboxes_boolean').hide();
+                $('#textboxes').hide();
+                $('#dropdowns').show();
+        }
+            else {
+                $('#textboxes').hide();
+                $('#dropdowns').hide();
+                $('#textboxes_boolean').show();
+        }
+    });
+});
+    $(document).ready(function(){
+        $('#textboxes_boolean').show();
+});
+  </script>
+  <script>
+   $(document).ready(function(){
+  $('[data-toggle="popover"
+    ]').popover();
+});
+  </script>
+  <footer>
+   <p style="font-size: 14px;">
+    Copyright © 2021 easylaw.ai. All Rights Reserved.    |
+    <a href="https://www.easylaw.ai/disclaimer">
+     Disclaimer
+    </a>
+   </p>
+  </footer>
+ </body>
+</html>
